@@ -226,9 +226,9 @@ Link: [Google](https://google.com, "google link")
 [참조링크] : 사진링크 "설명"
 
 //예시
-![camping](/camping_1.jpg "halloween camping image")
+![camping](./camping_1.jpg "halloween camping image")
 ```
-![camping](/camping_1.jpg "halloween camping image")
+![camping](./camping_1.jpg "halloween camping image")
 
 위 문법은 이미지의 크기 조절 기능은 없다.  
 사이즈 조절을 하고자 한다면, `<img width="" height=""></img>`를 사용해야한다.
