@@ -208,7 +208,6 @@ Link: [Google](https://google.com, "google link")
 외부링크: <https://google.com/>
 
 
-
 ### 2.10. 이미지
 `<img>` 태그<br>
 ```markdown
