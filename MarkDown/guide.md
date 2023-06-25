@@ -203,9 +203,9 @@ Link: [Google](https://google.com, "google link")
 
 - 자동연결 : URL을 직접적으로 드러낼 경우
 ```markdown
-외부링크: <http://google.com/>
+외부링크: <https://google.com/>
 ```
-외부링크: <http://google.com/>
+외부링크: <https://google.com/>
 
 
 
@@ -235,9 +235,9 @@ Link: [Google](https://google.com, "google link")
 #### ※ 이미지에 링크 걸기
 이미지 코드를 링크 `[Title]` 부분으로 묶어준다.
 ```markdown
-[![camping](./camping_1.jpg)](http://google.com/)
+[![camping](camping_1.jpg)](https://google.com/)
 ```
-[![camping](./camping_1.jpg)](http://google.com/)
+[![camping](camping_1.jpg)](https://google.com/)
 
 
 ### 2.11. 원시 HTML
