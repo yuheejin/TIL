@@ -1,6 +1,7 @@
 # MarkDown
 Guide : https://www.markdownguide.org/getting-started/
-***
+
+
 ## 1. MarkDown 이란?
 텍스트 기반의 Markup Language이며, HTML로 변환이 가능하다.
 
@@ -12,7 +13,8 @@ Guide : https://www.markdownguide.org/getting-started/
 1. 표준이 없다.
 2. 모든 HTML을 대신하지 못한다.
 
-***
+
+
 ## 2. MarkDown 문법
 ### 2.1. 제목(Header)
 `<h1>`~ `<h6>`을 표현가능하며, 글씨 크기는 점점 작아진다.
@@ -41,10 +43,11 @@ This is 'h2'
 -
 ```
 
-=, - 말고, #을 사용하는 것이 더 편하다. <br>
-=, -은 '1. 제목'에 적용했을때, 리스트로 변환되기 때문이다.
+`=`, `-` 말고, #을 사용하는 것이 더 편하다. <br>
+`=`, `-`은 '1. 제목'에 적용했을때, 리스트로 변환되기 때문이다.
 
-***
+
+
 ### 2.2. 강조 (Emphasis)
 `<em>`, `<strong>`, `<del>` 태그 <br>
 - `<em>`은  `*` 또는 `_` 를 사용한다.
@@ -64,7 +67,8 @@ This is 'h2'
 ~~일 이 삼 사~~  
 <u>markdown 참 쉽죠?</u>
 
-***
+
+
 ### 2.3. 줄바꿈 (Line Breaks)
 `<br>` 태그 <br><br>
 Enter가 적용되지 않는 경우, `띄어쓰기 2번` 혹은 `<br>`을 사용한다.
@@ -79,7 +83,8 @@ little star tonight<br>밤새 내가 지켜줄 거야<br>  <!--띄어쓰기 2번
 little star tonight<br>밤새 내가 지켜줄 거야<br>  <!--띄어쓰기 2번-->  
 < 스탠딩에그 'little star' 중 >
 
-***
+
+
 ### 2.4. 수평선 (Horizontal Rule)
 `<hr>` 로 변환 된다.<br><br>
 `-`, `*`, `_` 셋 중 하나를 세번 이상 입력한다.
@@ -93,7 +98,8 @@ ___
 ___
 <br>
 
-***
+
+
 ### 2.5. 인용문 (BlockQuote)
 `<blockquote>` 태그<br>  
 `>` 를 사용한다.
@@ -106,7 +112,8 @@ ___
 > > 인용문의 인용문
 > > > 인용문의 인용문의 인용문
 
-***
+
+
 ### 2.6. 코드블럭 (Code Block)
 `<pre>`, `<code>` 코드<br>  
 ~와 같은 키에 있는 ` `` 를 3번이상 입력한다.  
@@ -123,7 +130,8 @@ System.out.println();
 ```
 이렇게 `한번만` 사용해주세요.
 
-***
+
+
 ### 2.7. 목록 (List)
 `<ol>`, `<ul>` 태그<br><br>
 `숫자 + 점` 을 사용한다.<br>
@@ -149,7 +157,8 @@ System.out.println();
 + 저것
     - 그것
 
-***
+
+
 ### 2.8. 표 (Table)
 `<table>` 태그<br>
 - 헤더 구분 : 3개 이상의 `-` 사용한다.
@@ -167,13 +176,14 @@ System.out.println();
 김아름|010-0000-0000|서울특별시 송파구
 서아름다운|010-1111-1111|경기도 구리시
 
-***
+
+
 ### 2.9. 링크 (Links)
 `<a>` 태그 <br>
 - 참조링크
 ```markdown
 //문법
-[link keyword][id]
+[Title][id]
 
 [id]: URL "Optional Title here"
 
@@ -182,7 +192,6 @@ Link: [Google][googlelink]
 
 [googlelink]: https://google.com "Go google"
 ```
-
 Link: [Google][googlelink]
 
 [googlelink]: https://google.com "Go google"
@@ -203,10 +212,10 @@ Link: [Google](https://google.com, "google link")
 ```
 외부링크: <http://google.com/>
 
-***
+
+
 ### 2.10. 이미지
 `<img>` 태그<br>  
-링크 앞에 `!`를 추가하면 이미지
 ```markdown
 //문법
 ![대체 택스트(alternative text)](사진링크 "설명")
@@ -217,11 +226,30 @@ Link: [Google](https://google.com, "google link")
 [참조링크] : 사진링크 "설명"
 
 //예시
+![camping](./camping_1.jpg "halloween camping image")
 ```
-![Alt text](/path/to/img.jpg)
-![Alt text](/path/to/img.jpg "Optional title")
+![camping](./camping_1.jpg "halloween camping image")
 
-이미지에 링크 걸기
+위 문법은 이미지의 크기 조절 기능은 없다.  
+사이즈 조절을 하고자 한다면, `<img width="" height=""></img>`를 사용해야한다.
+```markdown
+<img src="./camping_1.jpg" width="40%" height="40%" title="10px" alt="halloween camping image"></img>
+```
+<img src="./camping_1.jpg" width="40%" height="40%" title="10px" alt="halloween camping image"></img>
 
-***
-### 2.11. 원시HTML
+#### ※ 이미지에 링크 걸기
+이미지 코드를 링크 `[Title]` 부분으로 묶어준다.
+```markdown
+[![camping](./camping_1.jpg)](http://google.com/)
+```
+[![camping](./camping_1.jpg)](http://google.com/)
+
+
+### 2.11. 원시 HTML
+위에서 보았다 싶히 MarkDown 문법으로 해결이 안되는 부분은 HTML로 해결가능하다.   
+이 외에 하고자 하는 것들은 HTML을 사용하자.
+
+## 참고
+- https://heropy.blog/2017/09/30/markdown/
+- https://gist.github.com/ihoneymon/652be052a0727ad59601#1-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90-%EA%B4%80%ED%95%98%EC%97%AC
+- 
