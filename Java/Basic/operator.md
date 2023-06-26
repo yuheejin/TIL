@@ -1,5 +1,5 @@
 # 연산자 (operator)
-
+<br>
 ## 1. 대입 연산자 *assignment operator* <br>
 `=` 왼쪽의 변수에 오른쪽의 값을 대입함
 
@@ -77,6 +77,7 @@ boolean을 제외한 기본 자료형에서 사용 가능함
 - `<=` : (왼쪽 값이) 같거나 큼 *greater than or equal to*
 - `>=` : (왼쪽 값이)같거나 작음 *less than or equal to*
 
+***
 ## 7. 논리 연산자 *conditional operator*
 - `&&` : AND 결합 *conditional AND*
 - `||` : OR 결합 *conditional OR*
