@@ -3,7 +3,7 @@
 
 ## 1. 대입 연산자 *assignment operator* <br>
 `=` 왼쪽의 변수에 오른쪽의 값을 대입함
-<br>
+<br>  
 
 ***
 ## 2. 산술 연산자 *arithmetic operator*
