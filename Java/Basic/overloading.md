@@ -42,17 +42,101 @@ public class ReferenceOverloading {
 <br>
 
 ***
-## 3. static 메소드와 일반 메소드
-static 메소드는 객체를 생성하지 않아도 호출되는 메소드이다.
+## 3. static
+### 3.1. static 메소드
+객체를 생성하지 않아도 호출되는 메소드이다.
 ```java
 public class ReferenceStatic {
     public static void main(String args[]) {
         ReferenceStatic.staticMethod();
     }
-    public static void main(String[] args) {
+    public static void staticMethod() {
         System.out.println("This is a staticMethod");
     }
 }
 ```
+static이 아닌 변수는 static 메소드에서 사용할 수 없다.
 
-- static이 아닌 변수는 static 메소드에서 사용할 수 없다.
+### 3.2. static 변수
+```java
+public class ReferenceStaticVariable {
+    static String name;
+    public ReferenceStaticVariable() {}
+    public ReferenceStaticVariable(String name) {
+        this.name = name;
+    }
+    public static void main(String[] args) {
+        ReferenceStaticVariable reference = new ReferenceStaticVariable();
+        reference.checkName();
+    }
+    public void checkName() {
+        ReferenceStaticVariable reference1 = new ReferenceStaticVariable("Sangmin");
+        System.out.println(reference1.name);
+        ReferenceStaticVariable reference2 = new ReferenceStaticVariable("Sungchoon");
+        System.out.println(reference1.name);
+        System.out.println(reference2.name);
+    }
+}
+```
+위의 결과는 아래와 같다.
+```java
+Sangmin
+Sungchoon 
+Sungchoon
+```
+name은 static 변수이다.  
+객체가 다르더라도 같은 클래스에서 생성된 객체이므로 같은 값을 가진다.
+
+### 3.3. static 블록
+```java
+// StaticBlock class
+public class StaticBlock {
+    static int data = 1;
+    public StaticBlock() {
+        System.out.println("StaticBlock Constructor");
+    }
+    static {
+        System.out.println("*** First static block. ***");
+        data = 3;
+    }
+    static {
+        System.out.println("*** Second static block. ***");
+        data = 5;
+    }
+    public static int getData(){
+        return data;
+    }
+}
+
+// StaticBlockCheck class
+public class StaticBlockCheck {
+    public static void main(String[] args) {
+        StaticBlockCheck check = new StaticBlockCheck();
+        check.makeStaticBlockObject();
+    }
+    public void makeStaticBlockObject() {
+        System.out.println("Creating block1");
+        StaticBlock block1 = new StaticBlock();
+        System.out.println("Created bolck1");
+        System.out.println("------------------");
+        System.out.println("Creating block2");
+        StaticBlock block2 = new StaticBlock();
+        System.out.println("Created bolck2");
+    }
+}
+```
+위의 결과는 아래와 같다.
+```java
+Creating block1
+*** First static block. ***
+*** Second static block. ***
+StaticBlock Constructor
+Created bolck1
+------------------
+Creating block2
+StaticBlock Constructor
+Created bolck2
+```
+
+static 블록은 객체가 계속 생성되더라도 처음 딱 한번만 호출된다.
+따라서 static 블록은 클래스를 초기화할 때 유용하다.
