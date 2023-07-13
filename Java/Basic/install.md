@@ -1,7 +1,7 @@
-◾ JDK 다운로드 ver. 11.0.19
+# JDK 다운로드 ver. 11.0.19  
 https://www.oracle.com/java/technologies/downloads/#java11-windows
 
-◾ java version 확인
+# java version 확인  
 1. 파일 탐색기 > 프로그램파일 > 자바 에서 확인
 2. cmd open
 '''
@@ -14,7 +14,7 @@ Java(TM) SE Runtime Environment 18.9 (build 11.0.19+9-LTS-224)
 Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.19+9-LTS-224, mixed mode)
 '''
 
-◾ 환경변수 설정
+# 환경변수 설정  
 내PC > 속성 > 고급시스템설정 > 환경변수 > 새로만들기 > JAVA_HOME 추가
                                         path > %JAVA_HOME%\bin 추가
 
