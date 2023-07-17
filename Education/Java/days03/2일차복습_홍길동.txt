@@ -1,0 +1,225 @@
+1. 에러메시지에 대한 설명을 하세요 .
+  ㄱ. The local variable age may not have been initialized
+  		// 지역변수 반드시 초기화해야 된다.
+		String name;
+		System.out.println(name);
+		
+  ㄴ. grade cannot be resolved to a variable
+      System.out.println( grade);
+      
+  ㄷ. The left-hand side of an assignment must be a variable
+  		// The left-hand side of an assignment must be a variable
+		// 100 = 10;
+		
+  ㄹ. Type mismatch: cannot convert from int to boolean
+  		// Type mismatch: cannot convert from long to int
+		// int i = 100L;
+		
+		// 자동형변환되는 경우.
+		long l = 100;
+		
+  ㅁ. Duplicate local variable age
+  		int age;		
+		int age;
+  
+  ㅂ. Unhandled exception type IOException
+      br.readLine(); 
+      // IOException 예외 처리..
+  
+ 2. 지역변수( Local Variable ) 에 대해서 설명하세요. 
+    변수
+    상수
+    리터럴
+   
+ 3.  표준 출력 함수 3가지에 대해서 설명(기능, 매개변수, 리턴값)하세요. 
+       
+     ㄱ.  void System.out.println()  출력 + 개행  
+     ㄴ.  void System.out.print()    출력     X   
+     ㄷ.  PrintStream System.out.printf()   출력형식(format)   
+     
+
+*** 4. 이름, 나이, 학점, 성별 관련 변수를 선언하시고, 출력하세요.
+    ( 각 변수의 값은  조건2)를 보고 초기화 하세요 )
+    
+    조건1) printf() 메서드 사용
+    조건2) 출력 형식은    ">이름:"홍길동", 나이:20, 학점:'A', 성별:true" 
+    
+    // >이름:"홍길동", 나이:20, 학점:'A', 성별:true
+		String name = "홍길동";
+		byte age = 20;
+		char grade = 'A';
+		boolean gender = true;
+		System.out.printf(">이름:\"%s\", 나이:%d, 학점:'%c', 성별:%b"
+				, name, age, grade, gender );
+				
+    
+5. 아래 코딩의 차이점을 설명하세요 
+      A    식별자(클래스명, 변수명, 메서드명 등등 )
+     'A'   문자  ''
+     "A"   문자열 == 문자들의 나열
+            'A' + 'B' + 'C'+ '\0' == "ABC"
+            "A" = 'A'+ '\0' 널문자
+
+6.  두 정수 x,y 변수를 선언하고 각각 1,2로 초기화하고 
+    합을 출력하고,
+    두 값을 교환하고 x,y 값을 출력하는 코딩을 하세요.
+    int x = 1, y = 2;
+    int sum = x + y;
+    syso(sum);
+    
+    {
+       int temp = x;
+       x = y;
+       y = temp;
+    }
+    
+    // 출력.
+    
+     
+     
+7.  + 연산의 결과와 그에 대해서 설명하세요 
+   ㄱ. 3 + 5 + 0        = 8
+   ㄴ. 3 + 5 + "0"      = "80"  
+   ㄷ. 3 + 5 + '0'48    = 56
+   System.out.println(  3+5+( '1'- 48) );  // 56
+   
+
+8. 자료형( Data Type )에 대해서 설명하세요 .
+  ㄱ. 정의 :  크기 + 유형  정의한 것
+  ㄴ. 종류 :
+      기본형(8)
+         숫자형 
+            정수형: byte(1), short(2), int(4), long(8)
+                       문자  char(2) 유니코드 2바이트
+                       'A' -> ASCII 코드표 65 -> 0,1 2진수
+                              유니코드(2)
+                             인코딩 
+                             디코딩 
+                       
+            실수형: float(4), double(8)
+         논리형 : boolean(1)
+      참조형:배열, 클래스, 인터페이스
+      
+      래퍼(Wrapper)클래스
+      
+      int i = Integer.MAX_VALUE;  // 2147483647
+		//      Integer.MIN_VALUE
+		
+		// int j = i + 100;
+		long j = (long)i + 100; // 우측연산결과   int + int = int
+		System.out.println( j );
+		
+
+9.  나이와 국어점수, 원주율(3.141592)를 저장할 변수와 상수를 선언하세요 .
+    0~125 정수  byte age
+    0~100 정수  byte kor
+    고정된 실수 final double PI = 3.141592
+
+10. 함수(메서드)를 사용할 때 반드시 알아야 할 3가지에 대해 설명하세요.  
+    ㄱ. 기능(일)
+    ㄴ. 매개변수( 파라미터, argument )
+    ㄷ. 리턴값( 리턴자료형 )  void 
+                                 
+11. 개행( 줄바꿈 ) 하는 코딩을 모두 적으세요. 
+    ㄱ.  '\n' 제어문자
+    ㄴ.  System.out.println();
+
+12. 십진수 27을   2진수, 8진수(0,1,2,3,4,5,6,7), 16진수로 나타내세요.
+               00011011  033    0x1b
+               00[011][011]
+                0  3    3 
+               [0001][1011]
+                  1  b(11)
+       
+
+*** 13. 이름을 표준입력장치로 부터 입력받아서 
+    출력하는 코딩을 하세요. 
+     
+     [입력형식]
+     > 이름을 입력하세요 ? _
+     
+     [출력형식]
+     > 이름은 "홍길동"입니다.
+
+package days03;
+
+import java.util.Scanner;
+
+/**
+ * @author kenik
+ * @date 2023. 7. 17. - 오전 7:16:08
+ * @subject
+ * @content
+ */
+public class Ex01 {
+
+	public static void main(String[] args) { 
+		String name = "홍길동";
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("> 이름을 입력하세요 ?"); 
+		name = sc.next();
+		// sc.nextLine();
+		
+		System.out.printf("> 이름은 \"%s\"입니다.", name); 
+		
+
+	} // main
+
+} // class     
+     
+
+14.  printf(String format, Object...args) 함수의 String format 매개변수의 
+      %Conversion(출력서식) 에 대해서 설명하세요. 
+      ㄱ. String 일 때 사용하는 Conversion : %s
+      ㄴ. char 일 때 사용하는 Conversion :    %c
+      ㄷ. boolean 일 때 사용하는 Conversion :    %b
+      ㄹ. byte, short, int, long 일 때 사용하는 Conversion : %d    
+      ㅁ. float, double 일 때 사용하는 Conversion :     %f
+
+15. 인코딩(encoding)과 디코딩(decoding)에 대해서 간단히 설명하세요.
+     
+     ㄱ. 인코딩 :   
+     ㄴ. 디코딩 :    
+     
+     12:01 수업 시작~
+*** 16. 이름, 나이, 국어, 영어, 수학을 입력받아서
+
+    아래와 같이 출력
+    [입력형식] 이름 나이 국어 영어 수학 입력 ? 
+    [출력형식] "홍길동" 20살 10 20 30 60 20.00   
+    
+    ( 조건 : Scanner 클래스 사용 )   
+    ( 조건 : 평균은 소수점 2자리까지 출력 )   
+    
+17. 아래 코딩(import문)에 대해서 설명하세요. 
+	import java.io.BufferedReader;
+	import java.io.IOException;
+	import java.io.InputStreamReader;
+	
+	import java.io.*;
+
+18. 문자열(String) "10"을   byte, short, int, long 으로 
+변환하는 코딩을 하세요. 
+    Integer.parseInt("10");
+    Byte.parseByte("10");
+    Short.parseShort("10");
+    Long.parseLong("10");
+    
+    
+    (int)"10"   ? cast 연산자를 사용해서 강제형변환. X
+
+18-2. 정수(int) 10을   문자열(String) "10"으로 변환하는
+코딩을 하세요.  
+     10 + ""
+     Integer.toString(10)
+     
+     2진수문자열, 8진수문자열, 16진수문자열 
+
+
+
+                    
+																															
+
+
+                    
