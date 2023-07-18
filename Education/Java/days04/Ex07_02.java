@@ -22,9 +22,9 @@ public class Ex07_02 {
 		
 		// for 뒤에 바로 세미콜론을 찍는 경우, 뒤에 {}는 별도의 블럭으로 인식한다.
 		for (int i = 0; i < args.length; i++);  {}
-		
-		if (condition)
-			System.out.println("1줄");
+//
+//		if (condition)
+//			System.out.println("1줄");
 		System.out.println("2줄");
 		
 	} // main

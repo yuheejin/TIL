@@ -24,7 +24,7 @@ public class Ex12 {
 		// 인코딩 (encoding)  'A' -> 65 변환		~을 코드화한다.
 		// 디코딩 (decoding)  65 -> 'A' 변환	
 		
-		// '\u0000'~'\uffff' 		여기서 \u는 유니코드를 의미한다.
+		// '\u0000'~'\uffff' 		여기서 는 유니코드를 의미한다.
 		// 16진수 61 -> 10진수 ?
 		char d = '\u0061';
 		System.out.printf("d: %c\n", d); // 'a' - 97,   'A' - 65

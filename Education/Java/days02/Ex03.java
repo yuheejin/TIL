@@ -23,7 +23,7 @@ public class Ex03 {
 		// grade cannot be resolved to a variable
 		// grade는 선언되지 않은 변수임
 		// grade는 지역변수이므로 영역(블럭)을 벗어나면 메모리가 지워짐
-		System.out.printf("등급 : '%c'", grade);
+		//System.out.printf("등급 : '%c'", grade);
 		
 		
 	} //main

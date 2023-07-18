@@ -12,7 +12,6 @@ public class Ex03 {
 		double avg;
 		System.out.print("이름 나이 국어 영어 수학 입력 ?");
 		Scanner sc = new Scanner(System.in);
-		sc.ne
 		name=sc.next();
 		age= sc.nextInt();
 		kor= sc.nextInt();
