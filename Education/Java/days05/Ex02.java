@@ -16,11 +16,9 @@ public class Ex02 {
 
 			char stToCh = st.charAt(0);
 			
-			if ( 0 <= stToCh && stToCh <= 9 )
+			if ( '0' <= stToCh && stToCh <= '9' )
 				System.out.println("숫자 입니다.");
 			else if (('a' <= stToCh && stToCh <='z') || ('A' <= stToCh && stToCh <='Z'))
-				System.out.println("알파벳(대, 소문자) 입니다.");
-			else if ()
 				System.out.println("알파벳(대, 소문자) 입니다.");
 			else if ('#' == stToCh || '$' == stToCh  || '!' == stToCh || '%' == stToCh  || '@' == stToCh )
 				System.out.println("특수문자(#$!%@) 입니다.");
