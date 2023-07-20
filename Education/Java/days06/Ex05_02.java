@@ -47,10 +47,10 @@ public class Ex05_02 {
 			
 			
 			if ( flag ) {
-				System.out.println("입력 잘못!!!");
-			} else {
 				n = Integer.parseInt(inputData);
 				System.out.println(n);
+			} else {
+				System.out.println("입력 잘못!!!");
 			} //if
 			
 			
