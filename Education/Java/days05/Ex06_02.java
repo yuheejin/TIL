@@ -48,8 +48,10 @@ public class Ex06_02 {
 				i += 2;
 			}
 			*/
-			
+
+
 			// for -> while  변경
+			int i =1;
 			while (min<=max) {
 				sum += min;
 				System.out.printf(i == max ? "%d" : "%d+", min);

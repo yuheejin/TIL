@@ -62,23 +62,37 @@ public class Ex08 {
 
 
 		// [6]
-		/*11  12       13      14  15
-		 * 21      22  23  24      25
-		 *     31  32  33  34  35
-		 * 41      42  43  44      45
-		 * 51  52      53      54  55
-		 * 
-		 * */
-		
-		
-		for (int i = 1; i <= 5; i++) {
-			for (int j = 1; j <= 5; j++) {
-				if ()  System.out.print("*");
-				else System.out.print("_");
-			} //for
+		int size = 3;
+		for (int i = 1; i <= size; i++) {
+			System.out.println("_".repeat(size - i) + "*".repeat(2 * i - 1));
+		}
+
+		for (int i = size - 1; i >= 1; i--) {
+			System.out.println("_".repeat(size - i) + "*".repeat(2 * i - 1));
+		}
+		/*
+		// 윗부분 마름모 출력
+		for (int i = 1; i <= size; i++) {
+			for (int j = 1; j <= size - i; j++) {
+				System.out.print(" ");
+			}
+			for (int k = 1; k <= 2 * i - 1; k++) {
+				System.out.print("*");
+			}
 			System.out.println();
-		} //for
-		
+		}
+
+		// 아랫부분 마름모 출력
+		for (int i = size - 1; i >= 1; i--) {
+			for (int j = 1; j <= size - i; j++) {
+				System.out.print(" ");
+			}
+			for (int k = 1; k <= 2 * i - 1; k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		*/
 
 		//		// [7]
 		//		for (int i = 1; i <= 5; i++) {

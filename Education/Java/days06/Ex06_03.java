@@ -20,7 +20,7 @@ public class Ex06_03 {
 		
 		// [2] 세로로 구구단 출력
 		//int danNum = 2;
-		for (int i = 0; i < 10; i++) {
+		for (int i = 2; i < 10; i++) {
 			System.out.printf(" [%d]단\t",i);
 		} //for
 		
@@ -31,8 +31,6 @@ public class Ex06_03 {
 					System.out.printf("%d*%d=%d\t", dan, i, dan*i);
 					
 				} //for
-			
-			
 			
 			System.out.println();
 			
