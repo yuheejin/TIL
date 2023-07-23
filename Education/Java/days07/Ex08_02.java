@@ -1,6 +1,6 @@
 package Education.Java.days07;
 
-import util.Draw2D;
+import Education.Java.util.Draw2D;
 /**
  * @author heejin
  * @date 2023. 7. 21. - 오후 3:28:29
@@ -21,6 +21,4 @@ public class Ex08_02 {
 		Draw2D.drawLine(15,'=');
 		
 	} //main
-	
-	
 } //class

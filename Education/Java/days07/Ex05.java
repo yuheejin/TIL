@@ -7,14 +7,14 @@ public class Ex05 {
 //		// 1. 주민등록번호 000000-0000000
 //		// 	   resident registration number
 //		String rrn = "123456-1234567";
-//		
+//
 //		String regex = "[0-9]{6}-\\d{7}";
 //		// 숫자 [0-9]  \d
 //		// 반복횟수 ?(0,1) +(1,여러번) *(0, 여러번)
 //		// 				{n} : n번 와야함
 //		//				{n,m} : n~m번 와야함
 //		//				{n,} : n번 이상 와야함
-//		
+//
 //		if (rrn.matches(regex)) {
 //			System.out.println("올바른 주민등록번호 형식");
 //		} else {
@@ -36,15 +36,7 @@ public class Ex05 {
 			flag = zipCodes[i].matches(regex);
 			System.out.printf("%s - %s 우편번호\n", zipCodes[i], flag? "올바른" : "잘못된");
 		} //for
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 	} //main
 } //class

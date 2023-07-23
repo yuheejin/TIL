@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Ex02 {
 	public static void main(String[] args) {
-
-
 		// 행의 갯수를 입력받아 이등변 삼각형 별찍기
 		// 1: __*				3	5		
 		// 2: _***				4	7
@@ -24,7 +22,6 @@ public class Ex02 {
 		} catch (Exception e) {
 			e.printStackTrace();
 		} //try-catch
-
 
 	} //main
 } //class

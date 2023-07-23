@@ -18,7 +18,7 @@ public class Ex06 {
 		2*9=18
 		*/
 		
-		/*
+
 		// 중첩 for문
 		for (int dan = 2; dan <= 9; dan++) {
 			
@@ -28,21 +28,21 @@ public class Ex06 {
 			} // for
 			
 		} // for dan
-		*/
+
 		
-		int dan = 2, i = 1;
-		
-		while (dan <= 9) {		// dan 2~9
-			System.out.printf("[%d단]\n", dan);
-			
-			i = 1;
-			while (i <= 9) {
-				System.out.printf("%d * %d = %d\n", dan, i, dan*i);
-				i++;
-			} //while
-			
-			dan++;
-		} //while
+//		int dan = 2, i = 1;
+//
+//		while (dan <= 9) {		// dan 2~9
+//			System.out.printf("[%d단]\n", dan);
+//
+//			i = 1;
+//			while (i <= 9) {
+//				System.out.printf("%d * %d = %d\n", dan, i, dan*i);
+//				i++;
+//			} //while
+//
+//			dan++;
+//		} //while
 		
 		
 		/*

@@ -1,6 +1,7 @@
 package Education.Java.days07;
 
-import util.Draw2D;
+//import util.Draw2D;
+import Education.Java.util.Draw2D;
 
 /**
  * @author heejin

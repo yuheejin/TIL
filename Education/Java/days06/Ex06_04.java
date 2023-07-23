@@ -7,7 +7,7 @@ public class Ex06_04 {
 		for (int k = 1; k < 4; k++) {
 
 			for (int dan = 3*k-1; (dan < 3*k+2) && (dan<10); dan++) {
-				System.out.printf(" [%d]단\t\t",dan);
+				System.out.printf(" [%d]단\t",dan);
 			} //for
 
 			System.out.println();

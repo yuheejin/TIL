@@ -23,11 +23,5 @@ public class Ex06 {
 		
 		System.out.printf("\b=%d", sum);
 		
-		
-		
-		
-		
-		
-		
 	} //main
 } //class

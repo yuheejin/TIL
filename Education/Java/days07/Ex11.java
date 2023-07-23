@@ -7,18 +7,15 @@ package Education.Java.days07;
  * @content
  */
 public class Ex11 {
-	
 	static int x,y;
 	
 	public static void main(String[] args) {
 	
 		x=10;
 		y=20;
-		
 		System.out.printf("> x=%d, y=%d\n", x,y);
 		
 		swap();
-		
 		System.out.printf("> x=%d, y=%d\n", x,y);
 		
 	} //main
