@@ -23,7 +23,7 @@ public class Ex03_04 {
 		int[] m= {2,3,4,5,6,7,0,8,9,2,3,4,5};
 
 		for (int i = 0; i < rrn.length()-1; i++) {
-			sum += m[i] * rrn.charAt(i) - '0';
+			sum += m[i] * (rrn.charAt(i) - '0');
 		} //for
 
 		int check = (11-sum%11)%10;
