@@ -13,7 +13,7 @@ public class Ex02 {
 		// 날짜, 시간, 기능(일, 함수, 메서드) 구현된 클래스
 		// jdk1 		java.util.Date
 		// jdk1.1 	Calendar
-		// jdk1.8		LocalData, LocalTime, LocalDateTime
+		// jdk1.8		LocalDate, LocalTime, LocalDateTime
 		LocalDate d = LocalDate.of(year, month, day);
 		DayOfWeek w = d.getDayOfWeek();
 		// 1(월) 2(화) 3(수) ....6(토) 7(일)
