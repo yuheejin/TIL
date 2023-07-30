@@ -20,7 +20,7 @@ public class Ex07 {
 		m[2] = 3;
 
 //		int [] m = new int[] {1,2,3};
-		int [] m = {1,2,3};
+//		int [] m = {1,2,3};
 
 	} //main
 } //class
