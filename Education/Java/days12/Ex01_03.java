@@ -23,8 +23,8 @@ public class Ex01_03 {
 		for (int i = 0; i < m.length; i++) {
 			for (int j = 0; j < m[i].length; j++) {
 				n[(i * m[i].length + j) / n[0].length][(i * m[i].length + j) % n[0].length] = m[i][j];
-			}
-		}
+			} //for
+		} //for
 		dispM(n);
 		
 	} //main	
