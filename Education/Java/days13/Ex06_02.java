@@ -4,7 +4,7 @@ package Education.Java.days13;
  * @author heejin
  * @date 2023. 7. 31. - 오후 2:08:55
  * @subject	
- * @content	Porint 클래스 선언
+ * @content	Point 클래스 선언
  * 						필드 x, y ...
  * 						메서드 좌표출력메서드 ...
  */
