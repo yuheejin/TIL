@@ -1,6 +1,6 @@
 package Education.Java.days13;
 
-class Tv {
+public class Tv {
 
 	//	// 중첩클래스
 	//	class Box {

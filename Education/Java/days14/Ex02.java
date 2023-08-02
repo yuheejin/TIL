@@ -1,6 +1,6 @@
 package Education.Java.days14;
 
-import days13.Point;
+import Education.Java.days13.Point;
 
 public class Ex02 {
 	public static void main(String[] args) {
