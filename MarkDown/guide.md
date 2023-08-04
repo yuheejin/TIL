@@ -1,9 +1,9 @@
 # MarkDown
-Guide : https://www.markdownguide.org/getting-started/
+Guide : https://www.markdownguide.org/getting-started/  
 
 ***
 ## 1. MarkDown 이란?
-텍스트 기반의 Markup Language이며, HTML로 변환이 가능하다.
+텍스트 기반의 경량 Markup Language이며, HTML로 변환이 가능하다.
 
 #### <장점>
 1. 지원하는 프로그램과 플랫폼이 다양하다.
