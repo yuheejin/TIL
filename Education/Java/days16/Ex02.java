@@ -1,10 +1,10 @@
 package Education.Java.days16;
 
 // Ctrl + Shift + O 를 하면 자동으로 import문 생성
-import days15.Employee;
-import days15.Regular;
-import days15.SalesMan;
-import days15.Temp;
+import Education.Java.days15.Employee;
+import Education.Java.days15.Regular;
+import Education.Java.days15.SalesMan;
+import Education.Java.days15.Temp;
 
 public class Ex02 {
 	public static void main(String[] args) {

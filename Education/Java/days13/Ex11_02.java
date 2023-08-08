@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-import days10.Ex06_04;
+import Education.Java.days10.Ex06_04;
 
 public class Ex11_02 {
 

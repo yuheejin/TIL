@@ -1,6 +1,6 @@
 package Education.Java.days01;
 
-import days13.Time;
+import Education.Java.days13.Time;
 
 public class Ex07_TimTest {
 	public static void main(String[] args) {
