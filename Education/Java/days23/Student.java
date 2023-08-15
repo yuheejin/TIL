@@ -86,7 +86,7 @@ public class Student implements Comparable<Integer>{
 	@Override
 	public String toString() {
 		return String.format("%d\t%s\t%d\t%d\t%d\t%d\t%.2f\t%d\t%d"
-				, no
+				, no 
 				, name
 				, kor
 				, eng
