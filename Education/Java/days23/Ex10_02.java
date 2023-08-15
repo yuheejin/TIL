@@ -4,12 +4,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.Properties;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오후 5:06:35
- * @subject
- * @content
- */
 public class Ex10_02 {
 	
 	public static void main(String[] args) {
@@ -37,14 +31,6 @@ public class Ex10_02 {
 			e.printStackTrace();
 		} // catch
 		
-		
-		
-		
 	} // main
 
 } // class
-
-
-
-
-

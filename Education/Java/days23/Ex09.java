@@ -2,12 +2,6 @@ package days23;
 
 import java.util.TreeMap;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오후 4:52:02
- * @subject
- * @content
- */
 public class Ex09 {
 
 	public static void main(String[] args) {

@@ -5,12 +5,6 @@ import java.util.Iterator;
 import java.util.Map.Entry;
 import java.util.Set;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오후 4:33:39
- * @subject
- * @content
- */
 public class Ex08 {
 
 	// phoneBook static 필드  

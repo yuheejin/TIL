@@ -5,12 +5,6 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오전 7:09:30
- * @subject
- * @content
- */
 public class Ex01 {
 	
 	public static void main(String[] args) {
@@ -66,14 +60,3 @@ public class Ex01 {
 	} // main
 
 } // class
-
-
-
-
-
-
-
-
-
-
-

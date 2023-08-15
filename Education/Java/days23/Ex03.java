@@ -6,12 +6,6 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오후 12:05:44
- * @subject
- * @content
- */
 public class Ex03 {
 
 	public static void main(String[] args) {
@@ -75,15 +69,4 @@ class Person{
 		} // if
 		return false;
 	}
-	
-	
-	
 }
-
-
-
-
-
-
-
-

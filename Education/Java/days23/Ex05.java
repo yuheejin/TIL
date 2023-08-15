@@ -3,12 +3,6 @@ package days23;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오후 2:00:34
- * @subject
- * @content
- */
 public class Ex05 {
 
 	/**
@@ -64,15 +58,3 @@ public class Ex05 {
 	}  // main
 
 } // class
-
-
-
-
-
-
-
-
-
-
-
-

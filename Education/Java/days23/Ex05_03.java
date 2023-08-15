@@ -7,13 +7,6 @@ import java.util.NavigableSet;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
-
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오후 2:25:12
- * @subject
- * @content
- */
 public class Ex05_03 {
 	
 	public static void main(String[] args) {
@@ -63,9 +56,6 @@ public class Ex05_03 {
 		//  3) 50~75 사이의 점수를 얻어와서 출력.		 
 		NavigableSet<Integer> ss3 = ts.subSet(50, false, 75, false);
 		System.out.println( ss3 );		
-		
-	    
-		
 		
 		 
 	} // main

@@ -4,12 +4,6 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오후 12:23:07
- * @subject
- * @content
- */
 public class Ex04 {
 
 	public static void main(String[] args) {
@@ -85,8 +79,3 @@ public class Ex04 {
 	} // main
 
 } // class
-
-
-
-
-

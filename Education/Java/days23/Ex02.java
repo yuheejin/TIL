@@ -7,12 +7,6 @@ import java.util.Scanner;
 
 import days10.Ex06_04;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오전 11:01:51
- * @subject  days12.Ex05.java
- * @content
- */
 public class Ex02 {
 
 	public static void main(String[] args) throws IOException {
@@ -119,9 +113,3 @@ public class Ex02 {
 [3반 학생 : 1명 ]
 1	쫃쫾믬	90	40	90	220	73.33	1	2
 */
-
-
-
-
-
-

@@ -7,12 +7,6 @@ import java.util.Iterator;
 import java.util.Map.Entry;
 import java.util.Set;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오후 3:12:53
- * @subject
- * @content
- */
 public class Ex06 {
 
 	public static void main(String[] args) {
@@ -136,9 +130,3 @@ public class Ex06 {
 	}
 	*/
 } // class
-
-
-
-
-
-

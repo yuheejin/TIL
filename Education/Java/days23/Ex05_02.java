@@ -2,12 +2,6 @@ package days23;
 
 import java.util.TreeSet;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오후 2:22:04
- * @subject
- * @content
- */
 public class Ex05_02 {
 	
 	public static void main(String[] args) {

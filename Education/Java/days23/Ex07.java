@@ -6,16 +6,9 @@ import java.util.Iterator;
 import java.util.Map.Entry;
 import java.util.Set;
 
-/**
- * @author kenik
- * @date 2023. 8. 14. - 오후 3:49:38
- * @subject
- * @content
- */
 public class Ex07 {
 
 	public static void main(String[] args) {
-		// 4:03 수업시작~ 
 		// days20.Ex01.java 파일 읽어서
 		// HashMap 저장 - key + value
 		//                'a'   10
@@ -69,14 +62,3 @@ public class Ex07 {
 	} // main
 
 } // class
-
-
-
-
-
-
-
-
-
-
-
